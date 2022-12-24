@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "9117a934-c746-4d19-8c5b-f68258751f9e",
+		"name": "facebook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24263417"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "sila1230000000000000000000",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "sila@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "work",
+									"value": "devoloper",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "pp",
+									"type": "text"
+								},
+								{
+									"key": "profile_picture_path",
+									"value": "12sdfdsf.jpg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3001/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "sila1230000000000000000000",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "sila@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "work",
+									"value": "devoloper",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "pp",
+									"type": "text"
+								},
+								{
+									"key": "profile_picture_path",
+									"value": "12sdfdsf.jpg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3001/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "allusers",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "sila1230000000000000000000",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "sila@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "work",
+									"value": "devoloper",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "pp",
+									"type": "text"
+								},
+								{
+									"key": "profile_picture_path",
+									"value": "12sdfdsf.jpg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3001/auth",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"auth"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteAll",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "username",
+									"value": "sila1230000000000000000000",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "sila@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345",
+									"type": "text"
+								},
+								{
+									"key": "work",
+									"value": "devoloper",
+									"type": "text"
+								},
+								{
+									"key": "address",
+									"value": "pp",
+									"type": "text"
+								},
+								{
+									"key": "profile_picture_path",
+									"value": "12sdfdsf.jpg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3001/auth/deleteAll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"auth",
+								"deleteAll"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
